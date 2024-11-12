@@ -81,7 +81,7 @@ export default function Navbar() {
             </div>
             
             {menuOpen && (
-                <div className="lg:hidden">
+                <div className="lg:hidden w-[40%] ml-auto p-4 rounded-xl" style={{ backgroundColor: '#EBD96B' }}>
                     <ul className="flex flex-col space-y-4 mt-4">
                         <li>
                             <Link href="/" className="hover:border-b-2 border-red-700">
